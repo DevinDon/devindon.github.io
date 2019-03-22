@@ -1,0 +1,13 @@
+title: 夜寒苏的天台
+author: IInfinity
+email: I.INF@Outlook.com
+description: > # this means to ignore newlines until "baseurl:"
+  宠辱不惊，悲喜无鸣。
+
+# social links
+twitter_username: iinfinity0322
+github_username:  DevinDon
+
+show_excerpts: true # set to false to remove excerpts on the homepage
+
+theme: minima
