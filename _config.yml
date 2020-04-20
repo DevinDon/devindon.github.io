@@ -95,15 +95,10 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: ''
-
 # Deploy
 ## Docs: https://hexo.io/zh-cn/docs/one-command-deployment
 deploy:
   type: git
   repo: git@github.com:DevinDon/devindon.github.io.git
-  branch: [master]
-  message: [date: {{ now('YYYY-MM-DD HH:mm:ss') }}]
+  branch: master
+  message: "date: {{ now('YYYY-MM-DD HH:mm:ss') }}" # see <https://github.com/hexojs/hexo/issues/1810#issuecomment-293483408> for more detail
