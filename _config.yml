@@ -99,3 +99,11 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+# Deploy
+## Docs: https://hexo.io/zh-cn/docs/one-command-deployment
+deploy:
+  type: git
+  repo: git@github.com:DevinDon/devindon.github.io.git
+  branch: [master]
+  message: [date: {{ now('YYYY-MM-DD HH:mm:ss') }}]
