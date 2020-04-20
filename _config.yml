@@ -3,31 +3,31 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: '夜寒苏的天台'
+subtitle: '大道虽简，知易行难。'
+description: '寄蜉蝣于天地，渺沧海之一栗。'
+keywords: blog, technology, essay
+author: '夜寒苏'
+language: 'zh-Hans'
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://blog.don.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: article/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
-source_dir: source
+source_dir: asset
 public_dir: public
 tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
+archive_dir: archive
+category_dir: category
+code_dir: code
 i18n_dir: :lang
 skip_render:
 
